@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://cdn.discordapp.com/banners/839360263740456990/a_1bbf90d114846065dff4aec1d3a13ae1.gif?size=4096);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.orange {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.red {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.input-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#targetDate {
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+#targetDate:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+#limitDateText {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: #ced4da 1px 0 10px;
+}
